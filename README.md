@@ -1,6 +1,8 @@
 Active Record Session Store
 ===========================
 
+[![Overall](https://img.shields.io/endpoint?style=flat&url=https://app.opslevel.com/api/service_level/Gbgmmit8piG8eSSndo2NLZYpVhtg4B3SSEV1zERHQ4k)](https://app.opslevel.com/services/activerecord-session-store /maturity-report)
+
 A session store backed by an Active Record class. A default class is
 provided, but any object duck-typing to an Active Record Session class
 with text `session_id` and `data` attributes is sufficient.
