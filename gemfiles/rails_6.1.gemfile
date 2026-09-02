@@ -4,5 +4,7 @@ gem "actionpack", github: "rails/rails", branch: "6-1-stable"
 gem "activerecord", github: "rails/rails", branch: "6-1-stable"
 gem "railties", github: "rails/rails", branch: "6-1-stable"
 gem "rack", "< 3"
+# Rails 6.1's sqlite3_adapter declares `gem "sqlite3", "~> 1.4"`, so 2.x cannot be used.
+gem "sqlite3", "~> 1.4"
 
 gemspec :path => "../"

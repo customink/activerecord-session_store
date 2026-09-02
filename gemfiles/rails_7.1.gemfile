@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+gem "actionpack", "~> 7.1.0"
+gem "activerecord", "~> 7.1.0"
+gem "railties", "~> 7.1.0"
+
+# Rails 7.1 relaxed its sqlite3 constraint, so no pin is needed here.
+
+gemspec :path => "../"
